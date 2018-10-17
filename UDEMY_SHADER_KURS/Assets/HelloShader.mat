@@ -76,5 +76,6 @@ Material:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _myColour: {r: 0.5660378, g: 0.5490082, b: 0.09878961, a: 1}
-    - _myEmission: {r: 0.018467424, g: 0.34659955, b: 0.7830189, a: 1}
+    - _myColour: {r: 1, g: 1, b: 1, a: 1}
+    - _myEmission: {r: 0.06811299, g: 0.019607825, b: 0.78431374, a: 1}
+    - _myNormals: {r: 1, g: 1, b: 1, a: 1}
