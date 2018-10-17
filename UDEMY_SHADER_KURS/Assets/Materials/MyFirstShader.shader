@@ -5,6 +5,7 @@ Properties {
 }
 
 SubShader {
+
 	CGPROGRAM
 		#pragma surface surf Lambert
 
@@ -15,9 +16,10 @@ SubShader {
 		fixed4 _myColour;
 
 		void surf (Input IN, inout SurfaceOutput o) {
-			o.Albedo=_myColour.rgb;
+			o.Emission=_myColour.rgb;
 		}
 	ENDCG
+
 	}
 	FallBack "Diffuse"
 }
